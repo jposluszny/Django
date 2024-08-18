@@ -94,6 +94,8 @@ DATABASES = {
         'PASSWORD': 'Mojehaslodomysql',
         'HOST': 'wektor78.mysql.pythonanywhere-services.com',
         'PORT': 3306,
+        'default-character-set':'utf8',
+        'sql_mode':'STRICT_TRANS_TABLES',
     },
 }
 
