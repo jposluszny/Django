@@ -79,22 +79,22 @@ DATABASES = {
     #     'ENGINE': 'django.db.backends.sqlite3',
     #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     # }
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mysqldb',
-        'USER': 'ja',
-        'PASSWORD': 'password123',
-        'HOST': 'localhost',
-        'PORT': 3306,
-    },
-    #   'default': {
+    # 'default': {
     #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'wektor78$default',
-    #     'USER': 'wektor78',
-    #     'PASSWORD': 'Mojehaslodomysql',
+    #     'NAME': 'mysqldb',
+    #     'USER': 'ja',
+    #     'PASSWORD': 'password123',
     #     'HOST': 'localhost',
     #     'PORT': 3306,
     # },
+      'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'wektor78$default',
+        'USER': 'wektor78',
+        'PASSWORD': 'Mojehaslodomysql',
+        'HOST': 'localhost',
+        'PORT': 3306,
+    },
 }
 
 
