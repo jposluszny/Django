@@ -92,7 +92,7 @@ DATABASES = {
         'NAME': 'wektor78$default',
         'USER': 'wektor78',
         'PASSWORD': 'Mojehaslodomysql',
-        'HOST': 'localhost',
+        'HOST': 'wektor78.mysql.pythonanywhere-services.com',
         'PORT': 3306,
     },
 }
